@@ -122,3 +122,10 @@ python3 ./src/UI-Test-Checkout.py
 # oder
 python3 ./UI-Test-Checkout.py
 ```
+
+Hinweis!
+Bitte bei folgenden Zeilen im Code die Testdaten aus dem PDF Fallaufgabe Softwaretester verwenden!
+
+CLIENT_ID: str = os.getenv("SC_CLIENT_ID", "bitte die validen Testdaten aus dem PDF Fallaufgabe Softwaretester verwenden")
+CLIENT_SECRET: str = os.getenv("SC_CLIENT_SECRET", "bitte die validen Testdaten aus dem PDF Fallaufgabe Softwaretester verwenden")
+GENERAL_CONTRACT_ID: str = os.getenv("SC_GCR", "bitte die validen Testdaten aus dem PDF Fallaufgabe Softwaretester verwenden")
